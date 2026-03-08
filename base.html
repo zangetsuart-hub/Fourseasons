@@ -1,37 +1,58 @@
-<a href="#" style="background-color: #997169; color: white; padding: 10px 20px; text-decoration: none; border-radius: 10px; display: inline-block;">Acceder</a>
 
-<form action="/my-handling-form-page" method="post">
-  <ul>
-    <li>
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="user_name" />
-    </li>
-    <li>
-      <label for="mail">Correo electrónico:</label>
-      <input type="email" id="mail" name="user_mail" />
-    </li>
-    <li>
-      <label for="msg">Mensaje:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </li>
-  </ul>
-</form>
 
-<form action="/my-handling-form-page" method="post">
-  <ul>
-    <li>
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="user_name" />
-    </li>
-    <li>
-      <label for="mail">Correo electrónico:</label>
-      <input type="email" id="mail" name="user_email" />
-    </li>
-    <li>
-      <label for="msg">Mensaje:</label>
-      <textarea id="msg" name="user_message"></textarea>
-    </li>
 
-    ...
-  </ul>
-</form>
+<!--USAR ESTO EN EL APARTADO DE PRODUCTOS-->
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+            <articles>
+            <img src="img_vestido.webp" alt="vestido img" width="250"> 
+            <h3>vestido vivo store</h3>
+            <p>saca tu mejor vercion</p>
+            <p>129 $</p>
+            
+            <articles>
+            <img src="pantalones_img.avif" alt="panalones img" width="250">
+            <h3>pantalon black</h3>
+            <p>convina tu estilo</p>
+            <p>190 $</p>
+            
+            <articles>
+            <img src="imagen_camisa.jpg" alt="camisa img" width="250">
+            <h3>camisa white</h3>
+            <p>tu mejor version</p>
+            <p>159 $</p>
+            
+            <articles>
+            <img src="chaqueta-img.jpg" alt="chaqueta img" width="250">
+            <h3>chaqueta vivo</h3>
+            <p>comonidad y estilo</p>
+            <p>289 $</p>
+            
+            </articles></articles></articles></articles></div>
+
+
+            <!DOCTYPE html>
+<html lang="es-PE" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Servicios</title>
+    </head>
+    <body style="background-color:#D3AB80">
+        <header style="display: flex">
+            <a href="Index.html">
+                    <img src="img/fourseasonsbrowntransparent.png" height="150" alt="Four Seasons">
+            </a>
+            <nav style="justify-content: center; display: flex ;align-items: center;">
+                <form form method="get" autocomplete="off" style="background-color: #FFF4E2; width: 620px; text-align: center; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); border-radius: 35px;justify-content:center; position: relative">
+                    <label label hidden for="search">Buscador</label> 
+                    <input style="padding: 15px 13px 15px 100px; width: 100%; border-radius: 35px; background-color: transparent; border: 3px solid #462825; font-size: 20px; outline: none; color: rgb(0, 0, 0);" type="search" placeholder="Ingrese aquí su busqueda">
+                    <i > <img src="img/search-circle.svg" alt="search" style="padding: 5px; width: 30px; border-radius: 70%; background-color:#D3AB80; position:absolute; font-size: 20px; top: 7px; right: 10px;"></i>
+                    <input type="submit" value="Buscar" style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; margin: 10px">
+                </form>
+                <ul style= "display: flex; list-style: none;align-items: center">
+                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 10px" href="productos.html">Productos</a></li>
+                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 10px" href="servicios.html" >Servicios</a></li>
+                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 10px" href="contacto.html" >Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
