@@ -29,43 +29,60 @@
                 </ul>
             </nav>
         </header>
-        <main style="background-color:#462825; border-radius: 35px; font-family: Arial, Helvetica, sans-serif; display: flex;align-items: center;justify-content: center; min-height: 100vh; margin: 20px;">
-            <form method="get" autocomplete="off" style="background-color: #FFF4E2;padding: 50px; width: 420px;; text-align: center; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); border-radius: 35px">
-                <h2 style="font-size: 25px; color: #462825; text-transform: uppercase; margin-bottom: 35px">Bienvenido</h2>
+        <main style="background-color:#462825; border-radius: 50px; font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; height: 100%; margin:20px 460px;">
+            <form method="get" autocomplete="off" style="background-color: #FFF4E2; padding: 50px; width: 450px;; text-align: center; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); border-radius: 35px; margin: 20px">
+                <h2 style="font-size: 25px; color: #462825; text-transform: uppercase; margin-bottom: 35px; margin-top: 0;">Contáctanos</h2>
                 <div style="position: relative;">
-                    <label label hidden for="nombre">Nombre</label> 
-                    <input style="position: relative; padding: 17px 15px 17px 65px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: rgb(0, 0, 0);" type="text" placeholder="Nombre">
-                    <i > <img src="img/account.png" alt="name" style="padding: 5px; width: 30px; border-radius: 70%; background-color:#D3AB80; position:absolute; font-size: 20px; top: 7px; left: 10px;"></i>
+                    <label>
+                        <i>
+                            <img src="img/account.png" alt="name" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 25px;">
+                        </i>
+                    </label> 
+                    <input style="position: relative; padding: 17px 1px 17px 55px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: #462825;" type="text" placeholder="Nombre">
+                </div>
+                <div hidden style="position: relative;">
+                    <label hidden>
+                        <i>
+                            <img src="img/password.png" alt="password" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 25px">
+                        </i>
+                    </label>
+                    <input style="position: relative; padding: 17px 1px 17px 55px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: #462825;" type="password" name="password" placeholder="Contraseña">
                 </div>
                 <div style="position: relative;">
-                    <label label hidden for="password">Contraseña</label>
-                    <input style="position: relative; padding: 17px 15px 17px 65px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: rgb(0, 0, 0);" type="password" name="password" placeholder="Contraseña">
-                    <i><img src="img/password.png" alt="password" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 10px"></i>
+                    <label>
+                        <i>
+                            <img src="img/phone_call.png" alt="phone" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 25px">
+                        </i>
+                    </label>
+                    <input style="position: relative; padding: 17px 1px 17px 55px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: #462825;" type="tel" name="phone" placeholder="Teléfono">    
                 </div>
                 <div style="position: relative;">
-                    <label label hidden for="email">E-mail</label>
-                    <input style="position: relative; padding: 17px 15px 17px 65px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: rgb(0, 0, 0);"  type="email" name="email" placeholder="Correo">
-                    <i> <img src="img/email.png" alt="email" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 10px"></i>
+                    <label>
+                        <i>
+                            <img src="img/email.png" alt="email" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 25px">
+                        </i>
+                    </label>
+                    <input style="position: relative; padding: 17px 1px 17px 55px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: #462825;"  type="email" name="email" placeholder="Correo">
                 </div>
-                <div style="position: relative;">
-                    <label label hidden for="phone">Teléfono</label>
-                    <input style="position: relative; padding: 17px 15px 17px 65px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: rgb(0, 0, 0);" type="tel" name="phone" placeholder="Teléfono">
-                    <i> <img src="img/phone_call.png" alt="phone" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 10px"></i>
+                <div style="position: relative; margin-bottom: 0;">
+                    <label hidden>Comentario</label>
+                    <textarea name="message" style="position: relative; padding: 10px; width: 88%; height: 100px; border-radius: 25px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; resize: none; color: #462825;" placeholder="Escribe aquí tu consulta..."></textarea>
                 </div>
-                <div style="position: relative; border-radius: 10px;">                    
-                    <label for="terminos_y_condiciones" style="display: flex; justify-content: center; align-items: center;" >
-                        <input type="checkbox" data-required="1" name="Terminos" >
-                        <p style="display: flexbox; color: #462825;font-size: 15px">Aceptar los&nbsp;</p>
-                        <a href="terminos_y_condiciones.html" target="_blank" style="display: flex; color: #462825;font-size: 15px;">Terminos y condiciones</a>
-                    </label>    
+                <div style="position: relative; display: flex; border-radius: 10px; justify-content: center;">
+                    <label style="align-items: center"></label>
+                    <input type="checkbox" data-required="1" name="Terminos" >
+                    <p style="color: #462825;font-size: 15px">Aceptar los
+                        <a href="terminos_y_condiciones.html" target="_blank" style="color: #462825;font-size: 15px;">Terminos y condiciones</a>
+                    </p>
                 </div>
+                <div>
                     <input type="submit" name="send" value="Enviar" style="background-color: #462825; padding: 15px 80px; border: 0; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); color: #FFF4E2; font-size: 15px; cursor: pointer; border-radius: 35px">
                 </div>
             </form>
         </main>
-        <footer style="position: relative; float:inline-end; background-color: #462825; width: 100%; color:antiquewhite; text-align: center; margin: 0; padding: 0; bottom: 0; width: 100%; height: 15rem ">
+        <footer style="position: relative; float:inline-end; background-color: #462825; width: 100%; color:antiquewhite; text-align: center; margin: 0; padding: 0; bottom: 0; width: 100%; height: 15rem; border-bottom: 0">
             <br>
-            <table style="margin: auto;">                
+            <table style="margin: auto">                
                 <tbody>
                     <tr>
                         <th>Contáctanos</th>
@@ -77,7 +94,7 @@
                     </tr>
                     <tr>
                         <td> Correo:
-                        <address>strings_foryou@forseasons.com.pe</address>
+                        <address>strings_foryou@fourseasons.com.pe</address>
                         </td>
                         <td>Accesorios</td>
                     </tr>
