@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contacto</title>
+        <title>Four Seasons - Contacto</title>
     </head>
-    <body style="background-image: url(img/notes_2.png); background-attachment: fixed; margin: 0 auto; display: flex; flex-direction: column">
-        <header>        
+    <body style="background-image: url(img/notes_2.jpg); background-attachment: fixed; margin: 0 auto; display: flex; flex-direction: column; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        <header>
             <nav style="justify-content: center; display: flex ;align-items: center;">
-                <h1 style="margin: 0">
-                    <a href="Index.html">
-                        <img src="img/fourseasonsbrowntransparent.png" height="130" alt="Four Seasons">
+                <h1 style="margin: 0px">
+                    <a href="index.html">
+                        <img src="img/fourseasonsbrowntransparent.png" height="130" alt="Four Seasons" style="margin: 0 20px;">
                     </a>
                 </h1>
                 <form method="get" style="background-color: #FFF4E2; width: 550px;display: flex; text-align: center; box-shadow: 0 0 5px #462825; border-radius: 35px; justify-content:center; position: relative">
@@ -23,13 +23,13 @@
                     </button>
                 </form>
                 <ul style= "display: flex; list-style: none;align-items: center">
-                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 10px" href="productos.html">Productos</a></li>
-                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 10px" href="servicios.html" >Servicios</a></li>
-                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 10px" href="contacto.html" >Contacto</a></li>
+                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 0 10px" href="productos.html">Productos</a></li>
+                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 0 10px" href="servicios.html" >Servicios</a></li>
+                    <li><a style="background-color: #462825; color: #FFF4E2; padding: 15px 30px; text-decoration: none; border-radius: 35px; display: inline-block; margin: 0 10px" href="contacto.html" >Contacto</a></li>
                 </ul>
             </nav>
         </header>
-        <main style="background-color:#462825; border-radius: 50px; font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; height: 100%; margin:20px 460px;">
+        <main style="background-color:#462825; border-radius: 50px; display: flex; justify-content: center; height: 100%; margin:20px 460px;">
             <form method="get" autocomplete="off" style="background-color: #FFF4E2; padding: 50px; width: 450px;; text-align: center; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); border-radius: 35px; margin: 20px">
                 <h2 style="font-size: 25px; color: #462825; text-transform: uppercase; margin-bottom: 35px; margin-top: 0;">Contáctanos</h2>
                 <div style="position: relative;">
@@ -40,12 +40,14 @@
                     </label> 
                     <input style="position: relative; padding: 17px 1px 17px 55px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: #462825;" type="text" placeholder="Nombre">
                 </div>
+                <!--Este agruoador del input esta oculto por que no venia al caso el ingreso de una contraseña en el formulario-->
                 <div hidden style="position: relative;">
                     <label hidden>
                         <i>
                             <img src="img/password.png" alt="password" style="padding: 5px; width: 30px; border-radius: 50%; background-color:#D3AB80; position: absolute; font-size: 20px; top: 7px; left: 25px">
                         </i>
                     </label>
+                    <!--Pensaba reutilizarlo, pero no pude implementar el login que tenia planeado-->
                     <input style="position: relative; padding: 17px 1px 17px 55px; width: 80%; margin-bottom: 25px; border-radius: 35px; background-color: transparent; border: 2px solid #462825; font-size: 16px; outline: none; color: #462825;" type="password" name="password" placeholder="Contraseña">
                 </div>
                 <div style="position: relative;">
@@ -80,7 +82,7 @@
                 </div>
             </form>
         </main>
-        <footer style="position: relative; float:inline-end; background-color: #462825; width: 100%; color:antiquewhite; text-align: center; margin: 0; padding: 0; bottom: 0; width: 100%; height: 15rem; border-bottom: 0">
+        <footer style="position: relative; background-color: #462825; width: 100%; color:antiquewhite; text-align: center; margin: 0; padding: 0; bottom: 0; width: 100%; height: 15rem; border-bottom: 0">
             <br>
             <table style="margin: auto">                
                 <tbody>
